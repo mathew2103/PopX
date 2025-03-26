@@ -11,7 +11,8 @@
 }
 
 .home {
-  height: 812px;
+  /* height: 812px; */
+  height: 100%;
   width: 375px;
   font-size: 28px;
   font-family: Rubik;
@@ -75,7 +76,7 @@
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-   height: 812px;
+   height: 100%;
   width: 375px;
   font-size: 28px;
   font-family: Rubik;
