@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.home {
+  height: 812px;
+  width: 375px;
+  font-size: 28px;
+  font-family: Rubik;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 41px;
+  justify-content: flex-end;
+}
+
+.head {
+  color: #1D2226;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 18px;
+  opacity: 0.6;
+  text-wrap: wrap;
+  width: 232px;
+}
+.home .desc {
+  margin-top: 10px;
+  margin-bottom: 29px;
+}
+
+.signin .desc {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+
+.button {
+  border-radius: 6px;
+  /* width: 335px; */
+  height: 46px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.primaryBtn {
+  background: #6C25FF 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.secondaryBtn {
+  color: #1D2226;
+  background-color: #6C25FF4B;
+  
+}
+
+.signin, .signup, .profile {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+   height: 812px;
+  width: 375px;
+  font-size: 28px;
+  font-family: Rubik;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.signup {
+  justify-content: space-between;
+  padding-bottom: 30px;
+  font-family: "Rubik";
+}
+
+.signin .head, .signup .head {
+  width: 188px;
+  text-wrap: wrap;
+}
+
+.tertiary {
+  background-color: #CBCBCB;
+  color: #FFFFFF;
+}
+
+.signup .head {
+  margin-bottom: 31px;
+}
+
+
+
+.radioButtons {
+  margin-top: 18px;
+}
+.MuiInputLabel-asterisk {
+  color: red;
+}
+
+.topBar {
+  height: 68px;
+  width: 100%;
+  padding-left: 18px;
+  padding-top: 27px;
+  padding-bottom: 19px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.profile {
+  padding: 0;
+
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.infoHead {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.profilePic {
+  position: relative;
+}
+.cameraIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profileName {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profileEmail {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.infoDesc {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+}
